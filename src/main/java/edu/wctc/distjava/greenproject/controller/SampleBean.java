@@ -1,4 +1,4 @@
-package edu.wctc.distjava.blueproject.controller;
+package edu.wctc.distjava.greenproject.controller;
 
 import java.io.Serializable;
 import javax.faces.bean.ManagedBean;
