@@ -13,23 +13,18 @@
     <developers>
         <developer>
             <id>f1rxf1y</id>
-            <name>Nick H</name>
-            <email>purban1@my.wctc.edu</email>
+            <name>Nick Halase</name>
+            <email>nhalase@my.wctc.edu</email>
         </developer>
         <developer>
-            <id>jlatz1</id>
-            <name>Jessica Latz</name>
-            <email>jlatz1@my.wctc.edu</email>
+            <id>chuck</id>
+            <name>Chuck Wojciuk</name>
+            <email>cwojciuk@my.wctc.edu</email>
         </developer>
         <developer>
-            <id>wsoehrmann</id>
-            <name>Wesley Soehrmann</name>
-            <email>wsoehrmann@my.wctc.edu</email>
-        </developer>
-        <developer>
-            <id>jgollakner</id>
-            <name>Joe Gollakner</name>
-            <email>jgollakner@my.wctc.edu</email>
+            <id>ncummins</id>
+            <name>Nolan Cummins</name>
+            <email>ncummins@my.wctc.edu</email>
         </developer>
     </developers>
     
@@ -63,7 +58,7 @@
         <dependency>
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
-            <version>3.5</version>
+            <version>3.4.2</version>
         </dependency>
         
         <dependency>
