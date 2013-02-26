@@ -6,7 +6,7 @@
     <artifactId>greenproject2</artifactId>
     <version>0.0.1-alpha</version>
     <packaging>war</packaging>
-
+    
     <name>greenproject2</name>
     <description>WCTC Dist. Java - Final Project (Green2)</description>
     
@@ -41,10 +41,12 @@
         <jodatime.version>2.1</jodatime.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <netbeans.hint.deploy.server>gfv3ee6</netbeans.hint.deploy.server>
+        
     </properties>
 
     <dependencies>
         <!-- Java EE 6 Stuff -->
+        
         
         <dependency>
             <groupId>javax.faces</groupId>
@@ -63,13 +65,14 @@
         <dependency>
             <groupId>org.primefaces</groupId>
             <artifactId>primefaces</artifactId>
-            <version>3.5</version>
+            <version>3.4.2</version>
         </dependency>
         
         <dependency>
             <groupId>org.primefaces.themes</groupId>
-            <artifactId>south-street</artifactId>
+            <artifactId>all-themes</artifactId>
             <version>1.0.9</version>
+            
         </dependency>
 
         <!-- Unir testing support -->
@@ -209,7 +212,7 @@
             <name>Repository for library GBSVoice</name>
         </repository>
     </repositories>
-
+    
     <build>
         <plugins>
             <plugin>
