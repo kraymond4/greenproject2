@@ -6,15 +6,9 @@
         <title>Home Page</title>
     </h:head>
     <h:body>
+        #{sampleBean.message}<br/>
         
-        <h:panelGrid columns="5">
-            <h:graphicImage id="headerLogo" url="images\Untitled.png"/>
-            <h:outputText id="otUser" value="User Name:" />
-            <h:inputText id="itUser"/>
-            <h:outputText id="otPassword" value="Password:" />
-            <h:inputSecret id="itPassword" />
-        </h:panelGrid>
-        #{sample.message}<br/>
+        #{sampleBean.getActorById("1")}
     </h:body>
 </html>
 
