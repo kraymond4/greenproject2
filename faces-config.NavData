@@ -1,6 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scene Scope="Project" version="2">
     <Scope Scope="Faces Configuration Only"/>
-    <Scope Scope="Project"/>
+    <Scope Scope="Project">
+        <Node id="homePageContent.xhtml" x="650" y="300" zoom="true"/>
+        <Node id="footer.xhtml" x="150" y="150" zoom="true"/>
+        <Node id="bootstrapTemplate.xhtml" x="150" y="300" zoom="true"/>
+        <Node id="bootstrapHeader.xhtml" x="400" y="150" zoom="true"/>
+        <Node id="indexBackup.xhtml" x="150" y="450" zoom="true"/>
+        <Node id="header.xhtml" x="400" y="450" zoom="true"/>
+        <Node id="indexOld.xhtml" x="400" y="300" zoom="true"/>
+        <Node id="bootstrapContent.xhtml" x="650" y="150" zoom="true"/>
+        <Node id="pages/index.xhtml" x="1150" y="150" zoom="true"/>
+        <Node id="mainTemplate.xhtml" x="150" y="600" zoom="true"/>
+        <Node id="primeDemo.xhtml" x="900" y="150" zoom="true"/>
+    </Scope>
     <Scope Scope="All Faces Configurations"/>
 </Scene>
