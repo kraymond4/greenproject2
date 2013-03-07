@@ -3,9 +3,9 @@ package edu.wctc.distjava.greenproject.controller;
 import edu.wctc.distjava.greenproject.model.Actor;
 import edu.wctc.distjava.greenproject.model.ActorEAO;
 import java.io.Serializable;
-import javax.enterprise.context.SessionScoped;
-import javax.inject.Inject;
 import javax.inject.Named;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
 
 /**
  * A sample JSF Managed Bean
@@ -13,12 +13,12 @@ import javax.inject.Named;
  * @version 1.00
  */
 @Named
-@SessionScoped
+@Scope("session")
 public class SampleBean implements Serializable {
     // Incremement this with each structural class change
     private static final long serialVersionUID = 1L;
     
-    @Inject
+    @Autowired
     private ActorEAO eao;
     
     private String message = "Hello From JSF Named Bean";

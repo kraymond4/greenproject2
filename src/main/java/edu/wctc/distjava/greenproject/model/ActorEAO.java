@@ -1,15 +1,15 @@
 package edu.wctc.distjava.greenproject.model;
 
-import javax.ejb.Stateless;
 import javax.inject.Named;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
+import org.springframework.context.annotation.Scope;
 
 @Named
-@Stateless
+@Scope("session")
 public class ActorEAO {
 
-    @PersistenceContext(unitName = "greenproject2PU")
+    @PersistenceContext
     private EntityManager em;
 
     public Actor getActorById(Object id) {
