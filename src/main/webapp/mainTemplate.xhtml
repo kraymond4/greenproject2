@@ -12,28 +12,31 @@
         <!-- Bootstrap -->
         <link href="resources/css/bootstrap.min.css" rel="stylesheet" media="screen" />
     </h:head>
-    <h:body>
+    <link rel="icon" type="image/png" href="./resources/img/favicon.ico" />
+    <h:body style="background-image: url('./resources/img/bg-tile02.png'); background-repeat: repeat;">
         <script src="http://code.jquery.com/jquery.js" />
         <script src="resources/js/bootstrap.js" />
-        <div class="container-fluid">
-            <div class="row-fluid">
-                <div class="span12">
-                    <ui:insert name="header">
-                        <ui:include src="/header.xhtml" />
-                    </ui:insert>
-                    <div class="row-fluid">
-                        <div class="span2">
-                            <!-- Sidebar Content -->
-                            <ui:insert name="sidebar">
-                                <ui:include src="/sidebar.xhtml" />
-                            </ui:insert>
+        <div style="background-color: white; margin: 30px; padding: 10px; border-radius: 20px;">
+            <div class="container-fluid">
+                <div class="row-fluid">
+                    <div class="span12">
+                        <ui:insert name="header">
+                            <ui:include src="/header.xhtml" />
+                        </ui:insert>
+                        <div class="row-fluid">
+                            <div class="span2">
+                                <!-- Sidebar Content -->
+                                <ui:insert name="sidebar">
+                                    <ui:include src="/sidebar.xhtml" />
+                                </ui:insert>
+                            </div>
+                            <div class="span10">
+                                <!-- Body Content -->
+                                <ui:insert name="body">
+                                    <ui:include src="/body.xhtml" />
+                                </ui:insert>
+                            </div>                           
                         </div>
-                        <div class="span10">
-                            <!-- Body Content -->
-                            <ui:insert name="body">
-                                <ui:include src="/body.xhtml" />
-                            </ui:insert>
-                        </div>                           
                     </div>
                 </div>
             </div>

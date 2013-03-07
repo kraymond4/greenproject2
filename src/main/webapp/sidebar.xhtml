@@ -2,13 +2,20 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ui="http://java.sun.com/jsf/facelets"
-      template=".mainTemplate.xhtml">
-    
-    <body>
-        <ui:composition>
-            sidebar content
-        </ui:composition>
-    </body>
-    
-</html>
+      template=".mainTemplate.xhtml"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:h="http://java.sun.com/jsf/html">
 
+    <h:body>
+        <ui:composition>
+            <h:form>
+                <p:menu> 
+                    <p:menuitem value="Google" url="http://www.google.com/"/>
+                    <p:separator />
+                    <p:menuitem value="PrimeFaces" url="http://www.primefaces.org/"/>
+                </p:menu>
+            </h:form>
+        </ui:composition>
+    </h:body>
+
+</html>

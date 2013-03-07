@@ -2,14 +2,14 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:ui="http://java.sun.com/jsf/facelets"
-      template=".mainTemplate.xhtml">
-    
-    <body>
+      template=".mainTemplate.xhtml"
+      xmlns:h="http://java.sun.com/jsf/html">
+
+    <h:body>
         <ui:composition>
             <h1>Actor Bean Example: </h1>
             <p class="lead">Actor whose ID is 1: #{sampleBean.getActorById("1")}</p>
         </ui:composition>
-    </body>
-    
-</html>
+    </h:body>
 
+</html>

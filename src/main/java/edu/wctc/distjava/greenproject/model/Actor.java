@@ -117,7 +117,7 @@ public class Actor implements Serializable {
 
     @Override
     public String toString() {
-        return "model.Actor[ actorId=" + actorId + " ]";
+        return "Actor{" + "actorId=" + actorId + ", firstName=" + firstName + ", lastName=" + lastName + ", lastUpdate=" + lastUpdate + '}';
     }
     
 }
